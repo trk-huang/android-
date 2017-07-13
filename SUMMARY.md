@@ -15,4 +15,6 @@
 * [Android之性能优化](androidzhi-xing-neng-you-hua.md)
 * [Android性能优化之数据库性能优化](androidxing-neng-you-hua-zhi-shu-ju-ku-xing-neng-you-hua.md)
 * [Android性能之布局优化](androidxing-neng-zhi-bu-ju-you-hua.md)
+* [Android性能优化之java代码优化](androidxing-neng-you-hua-zhi-java-dai-ma-you-hua.md)
+* [Android性能优化之网络优化](androidxing-neng-diao-you.md)
 
