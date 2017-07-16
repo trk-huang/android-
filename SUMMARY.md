@@ -20,4 +20,5 @@
 * [Android性能优化之性能调优](androidxing-neng-you-hua-zhi-xing-neng-diao-you.md)
 * [Android性能优化之电量](androidxing-neng-you-hua-zhi-dian-liang.md)
 * [Android性能优化之内存管理](androidxing-neng-you-hua-zhi-nei-cun-guan-li.md)
+* [Android性能优化之管理应用内存](androidxing-neng-you-hua-zhi-guan-li-ying-yong-nei-cun.md)
 
