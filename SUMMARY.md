@@ -2,7 +2,7 @@
 
 * [Android应用开发总结介绍](README.md)
 * [Android应用原理篇](chapter1.md)
-  * Android应用原理篇之基础组件
+  * [Android应用原理篇之基础组件](androidying-yong-yuan-li-pian-zhi-ji-chu-zu-jian.md)
   * [Android应用原理篇之Context](androidying-yong-yuan-li-pian-zhi-context.md)
   * [Android应用原理篇之Application](androidying-yong-yuan-li-pian-zhi-application.md)
   * [Android应用原理篇之Intent](androidying-yong-yuan-li-pian-zhi-intent.md)
@@ -119,6 +119,4 @@
   * fastjson、Gson
   * Dagger2
   * ButterKnife
-
-
 
