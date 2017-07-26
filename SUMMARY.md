@@ -1,7 +1,8 @@
 # Summary
 
 * [Android应用开发总结介绍](README.md)
-* [Android应用原理篇之基础组件](chapter1.md)
+* [Android应用原理篇](chapter1.md)
+  * Android应用原理篇之基础组件
   * [Android应用原理篇之Context](androidying-yong-yuan-li-pian-zhi-context.md)
   * [Android应用原理篇之Application](androidying-yong-yuan-li-pian-zhi-application.md)
   * [Android应用原理篇之Intent](androidying-yong-yuan-li-pian-zhi-intent.md)
@@ -103,7 +104,7 @@
   * 数据共享
   * 虚拟机
   * 硬件
-*  开发相关
+* 开发相关
   * 版本控制
   * 项目管理
 * 第三方库
