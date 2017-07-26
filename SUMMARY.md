@@ -21,6 +21,103 @@
   * [Android性能优化之内存管理](androidxing-neng-you-hua-zhi-nei-cun-guan-li.md)
   * [Android性能优化之管理应用内存](androidxing-neng-you-hua-zhi-guan-li-ying-yong-nei-cun.md)
 * [Android之进程与线程](androidzhi-jin-cheng-yu-xian-cheng.md)
+  * 进程通信
+  * 消息机制
+  * 并发
+* 数据持久化
+  * SQLite
+  * SharePerference
+  * 序列化
+  * Android内部文件系统
+* 多媒体
+  * 视频
+  * 音频
+  * 拍照
+* 网络
+  * Android网络知识
+* 图像、特效动画
+  * 图片
+  * gif加载
+  * 动画
+* 适配
+  * 屏幕适配
+  * 系统版本适配
+  * Room适配
+  * 语言和国际化
+  * 指令集相关
+  * 辅助功能
+* JNI和JDK
+  * so文件
+  * 本地方法实现
+  * NDK调试
+  * SWIG
+  * Bionic
+  * 原生实现
+    * 原生线程
+    * 原生图片
+    * 原生音频
+* 开发规范
+  * 编码规范
+  * 代码质量
+    * 分析工具
+    * 编码审核
+    * 安全编码策略
+* 应用安全
+  * 代码混淆
+  * 网络传输安全https、图解https、Google官方
+  * 数据安全
+    * MD5加密
+    * AES/DES
+    * Base64
+    * RSA
+    * 关于加密算法知识
+  * 逆向工程
+    * 反编译、Apktool
+    * apk安全
+      * dex动态加载
+      * 完整性校验
+      * 加壳技术
+    * 数据库加密
+    * 设备权限管理
+* 混合编程
+  * java与js通信
+  * weex
+  * ReactNative
+  * webkit相关
+* 编译与构建
+  * Gradle
+    * 基础知识
+    * Groovy
+    * manifest merger
+    * 定制构建过程
+    * Gradle插件开发
+  * APK
+    * 编译过程
+    * 签名
+* Android相关
+  * AndroidManifest
+  * 权限管理
+  * 6.0
+  * 7.0
+  * 启动流程
+  * 数据共享
+  * 虚拟机
+  * 硬件
+*  开发相关
+  * 版本控制
+  * 项目管理
+* 第三方库
+  * 图片
+    * Fresco
+    * Glide
+    * Picasso
+    * ImageLoader
+  * 网络
+    * okhttp、okhttp3
+    * retrofit
+  * fastjson、Gson
+  * Dagger2
+  * ButterKnife
 
 
 
