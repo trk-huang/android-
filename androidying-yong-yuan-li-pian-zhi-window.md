@@ -69,28 +69,24 @@ FLAG_NOT_\_FOCUSABLE
 
 ```
 当窗口可以获得焦点（没有设置 FLAG_NOT_FOCUSALBE 选项）时，仍然将窗口范围之外的点设备事件（鼠标、触摸屏）发送给后面的窗口处理。否则它将独占所有的点设备事件，而不管它们是不是发生在窗口范围内。
-
 ```
 
 **FLAG\_SHOW\_WHEN\_LOCKED**
 
 ```
 当屏幕锁定时，窗口可以被看到。这使得应用程序窗口优先于锁屏界面。可配合FLAG_KEEP_SCREEN_ON选项点亮屏幕并直接显示在锁屏界面之前。可使用FLAG_DISMISS_KEYGUARD选项直接解除非加锁的锁屏状态。此选项只用于最顶层的全屏幕窗口。
-
 ```
 
 **FLAG\_DIM\_BEHIND**。
 
 ```
   窗口之后的内容变暗
-
 ```
 
 **FLAG\_BLUR\_BEHIND**
 
 ```
 窗口之后的内容变模糊。
-
 ```
 
 _**2、Type参数表示Window的类型**_
@@ -101,15 +97,13 @@ _**2、Type参数表示Window的类型**_
 
 ```
     值在 FIRST_APPLICATION_WINDOW 和 LAST_APPLICATION_WINDOW 之间。
-    是通常的、顶层的应用程序窗口。必须将 token 设置成 activity 的 token 。  
-
+    是通常的、顶层的应用程序窗口。必须将 token 设置成 activity 的 token 。
 ```
 
 2\)Sub\_windows （子Window）：
 
 ```
     取值在 FIRST_SUB_WINDOW 和 LAST_SUB_WINDOW 之间。与顶层窗口相关联，token 必须设置为它所附着的宿主窗口的 token。
-
 ```
 
 3\)System\_windows （系统Window）：
@@ -128,7 +122,6 @@ _**2、Type参数表示Window的类型**_
 
 ```
     params.type = WindowManager.LayoutParams.TYPE_SYSTEM_ERROR;
-
 ```
 
 4、WindowManager提供的常用方法  
@@ -145,10 +138,7 @@ public interface ViewManager
     public void updateViewLayout(View view, ViewGroup.LayoutParams params);
     public void removeView(View view);
 }
-
 ```
-
-
 
 ## Activity,Window,View之间的关系 {#window的概念}
 
@@ -169,10 +159,6 @@ getWindow\(\).setContentView\(LayoutInflater.from\(this\).inflate\(R.layout.main
 所以，Activity其实不是显示视图，View才是真正的显示视图
 
 > 注：一个Activity构造的时候只能初始化一个Window\(PhoneWindow\)，另外这个PhoneWindow有一个”ViewRoot”，这个”ViewRoot”是一个View活ViewGroup，是最初始的跟视图，然后通过addView方法将View一个个层叠到ViewRoot上，这些层叠的View最终放在Window这个载体上面
-
-
-
-
 
 
 
