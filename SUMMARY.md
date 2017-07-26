@@ -11,7 +11,6 @@
 * [Android应用原理篇之事件机制](androidying-yong-yuan-li-pian-zhi-shi-jian-ji-zhi.md)
 * [Android应用原理篇之资源](androidying-yong-yuan-li-pian-zhi-zi-yuan.md)
 * [Android应用原理篇之架构设计](androidying-yong-yuan-li-pian-zhi-jia-gou-she-ji.md)
-* [设计模式](she-ji-mo-shi.md)
 * [Android之性能优化](androidzhi-xing-neng-you-hua.md)
 * [Android性能优化之数据库性能优化](androidxing-neng-you-hua-zhi-shu-ju-ku-xing-neng-you-hua.md)
 * [Android性能之布局优化](androidxing-neng-zhi-bu-ju-you-hua.md)
