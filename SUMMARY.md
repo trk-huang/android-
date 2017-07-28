@@ -39,7 +39,7 @@
 * 图像、特效动画
   * 图片
   * gif加载
-  * 动画
+  * [动画](dong-hua.md)
 * 适配
   * 屏幕适配
   * 系统版本适配
@@ -119,4 +119,7 @@
   * fastjson、Gson
   * Dagger2
   * ButterKnife
+* 常见面试题
+
+
 
