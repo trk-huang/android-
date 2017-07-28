@@ -23,6 +23,7 @@
   * [Android性能优化之管理应用内存](androidxing-neng-you-hua-zhi-guan-li-ying-yong-nei-cun.md)
 * [Android之进程与线程](androidzhi-jin-cheng-yu-xian-cheng.md)
   * 进程通信
+  * Handler、messageQueue、Looper的关系
   * 消息机制
   * 并发
 * 数据持久化
@@ -36,10 +37,13 @@
   * 拍照
 * 网络
   * Android网络知识
-* 图像、特效动画
-  * 图片
+* [图像、特效动画](tu-xiang-3001-te-xiao-dong-hua.md)
+  * [图片](tu-pian.md)
   * gif加载
   * [动画](dong-hua.md)
+* Android自定义View
+  * 理解canvas
+  * 理解Paint
 * 适配
   * 屏幕适配
   * 系统版本适配
