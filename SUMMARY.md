@@ -41,9 +41,9 @@
   * [图片](tu-pian.md)
   * gif加载
   * [动画](dong-hua.md)
-* Android自定义View
-  * 理解canvas
-  * 理解Paint
+* [Android自定义View](androidzi-ding-yi-view.md)
+  * [理解canvas](androidzi-ding-yi-view/li-jie-canvas.md)
+  * [理解Paint](androidzi-ding-yi-view/li-jie-paint.md)
 * 适配
   * 屏幕适配
   * 系统版本适配
@@ -124,6 +124,4 @@
   * Dagger2
   * ButterKnife
 * 常见面试题
-
-
 
