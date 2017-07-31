@@ -45,7 +45,7 @@
   * [理解canvas](androidzi-ding-yi-view/li-jie-canvas.md)
   * [理解Paint](androidzi-ding-yi-view/li-jie-paint.md)
     * [Paint之绘制图像](androidzi-ding-yi-view/li-jie-paint/paintzhi-hui-zhi-tu-xiang.md)
-    * Paint之PorterDuffXfermode
+    * [Paint之PorterDuffXfermode](androidzi-ding-yi-view/li-jie-paint/paintzhi-porterduffxfermode.md)
 * 适配
   * 屏幕适配
   * 系统版本适配
@@ -126,6 +126,4 @@
   * Dagger2
   * ButterKnife
 * 常见面试题
-
-
 
