@@ -50,6 +50,7 @@
     * Paint之LinearGradient
     * Paint之RadialGradient
     * Paint之SweepGradient
+    * Paint之ComposeShader
 * 适配
   * 屏幕适配
   * 系统版本适配
