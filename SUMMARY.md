@@ -47,6 +47,9 @@
     * [Paint之绘制图像](androidzi-ding-yi-view/li-jie-paint/paintzhi-hui-zhi-tu-xiang.md)
     * [Paint之PorterDuffXfermode](androidzi-ding-yi-view/li-jie-paint/paintzhi-porterduffxfermode.md)
     * [Paint之BitmapShader](androidzi-ding-yi-view/li-jie-paint/paintzhi-shader.md)
+    * Paint之LinearGradient
+    * Paint之RadialGradient
+    * Paint之SweepGradient
 * 适配
   * 屏幕适配
   * 系统版本适配
@@ -127,4 +130,6 @@
   * Dagger2
   * ButterKnife
 * 常见面试题
+
+
 
