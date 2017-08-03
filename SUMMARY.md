@@ -50,7 +50,7 @@
     * [Paint之LinearGradient](androidzi-ding-yi-view/li-jie-paint/paintzhilineargradient.md)
     * [Paint之RadialGradient](androidzi-ding-yi-view/li-jie-paint/paintzhi-radialgradient.md)
     * [Paint之SweepGradient](androidzi-ding-yi-view/li-jie-paint/paintzhi-sweepgradient.md)
-    * Paint之ComposeShader
+    * [Paint之ComposeShader](androidzi-ding-yi-view/li-jie-paint/paintzhi-composeshader.md)
 * 适配
   * 屏幕适配
   * 系统版本适配
