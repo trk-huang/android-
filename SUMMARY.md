@@ -47,8 +47,8 @@
     * [Paint之绘制图像](androidzi-ding-yi-view/li-jie-paint/paintzhi-hui-zhi-tu-xiang.md)
     * [Paint之PorterDuffXfermode](androidzi-ding-yi-view/li-jie-paint/paintzhi-porterduffxfermode.md)
     * [Paint之BitmapShader](androidzi-ding-yi-view/li-jie-paint/paintzhi-shader.md)
-    * Paint之LinearGradient
-    * Paint之RadialGradient
+    * [Paint之LinearGradient](androidzi-ding-yi-view/li-jie-paint/paintzhilineargradient.md)
+    * [Paint之RadialGradient](androidzi-ding-yi-view/li-jie-paint/paintzhi-radialgradient.md)
     * Paint之SweepGradient
     * Paint之ComposeShader
 * 适配
@@ -131,6 +131,4 @@
   * Dagger2
   * ButterKnife
 * 常见面试题
-
-
 
