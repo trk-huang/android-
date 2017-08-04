@@ -43,6 +43,9 @@
   * [动画](dong-hua.md)
 * [Android自定义View](androidzi-ding-yi-view.md)
   * [理解canvas](androidzi-ding-yi-view/li-jie-canvas.md)
+    * canvas clip方法学习
+  * Region学习
+  * 理解贝塞尔曲线
   * [理解Paint](androidzi-ding-yi-view/li-jie-paint.md)
     * [Paint之绘制图像](androidzi-ding-yi-view/li-jie-paint/paintzhi-hui-zhi-tu-xiang.md)
     * [Paint之PorterDuffXfermode](androidzi-ding-yi-view/li-jie-paint/paintzhi-porterduffxfermode.md)
@@ -131,4 +134,6 @@
   * Dagger2
   * ButterKnife
 * 常见面试题
+
+
 
