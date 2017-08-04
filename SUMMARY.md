@@ -45,6 +45,7 @@
   * [理解canvas](androidzi-ding-yi-view/li-jie-canvas.md)
     * [canvas clip方法学习](androidzi-ding-yi-view/li-jie-canvas/canvas-clipfang-fa-xue-xi.md)
   * [Region学习](androidzi-ding-yi-view/regionxue-xi.md)
+  * 理解Matrix
   * 理解贝塞尔曲线
   * [理解Paint](androidzi-ding-yi-view/li-jie-paint.md)
     * [Paint之绘制图像](androidzi-ding-yi-view/li-jie-paint/paintzhi-hui-zhi-tu-xiang.md)
@@ -134,4 +135,6 @@
   * Dagger2
   * ButterKnife
 * 常见面试题
+
+
 
