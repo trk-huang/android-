@@ -93,6 +93,12 @@ rectF = new RectF\(x,y,x1,y1\)
 
 
 
+```java
+drawBitmap(@NonNull Bitmap bitmap, @NonNull Matrix matrix, @Nullable Paint paint)
+```
+
+Matrix我们后面在讲，这个构造方法就是用matrix来对bitmap进行操作，例如移动、翻转。
+
 #### 绘制矩形
 
 canvas.drawRect\(float left,float top,float right, float bottom, Paint paint\);
@@ -168,24 +174,30 @@ protected void onDraw(Canvas canvas) {
 }
 ```
 
-#### 绘制bitmap
+#### 绘制点
 
-canvas.drawBitmap\(Bitmap bitmap, float left, float top, Paint paint\)
-
-left:左上角横坐标
-
-top: 左上角纵坐标
+构造方法：
 
 ```java
-@Override
-protected void onDraw(Canvas canvas) {
-    super.onDraw(canvas);
-    Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
-    float width = (getWidth()-bitmap.getWidth())/2;
-    float height = (getHeight()-bitmap.getHeight())/2;
-    canvas.drawBitmap(bitmap,width,height,paint);
-}
+drawPoints(@Size(multiple=2) float[] pts, int offset, int count,
+            @NonNull Paint paint)
 ```
+
+从上面可以了解到，pts的大小要大于2，并且每两个一组，多余的无效
+
+```java
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        float[] pts = new float[]{100f,500f,200f,700f,400f,400f};
+        Paint mp = new Paint();
+        mp.setStrokeWidth(10f);
+        mp.setColor(Color.parseColor("#FF4081"));
+        canvas.drawPoints(pts,mp);
+    }
+```
+
+
 
 #### 绘制文字
 
