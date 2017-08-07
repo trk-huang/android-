@@ -22,10 +22,10 @@
   * [Android性能优化之内存管理](androidxing-neng-you-hua-zhi-nei-cun-guan-li.md)
   * [Android性能优化之管理应用内存](androidxing-neng-you-hua-zhi-guan-li-ying-yong-nei-cun.md)
 * [Android之进程与线程](androidzhi-jin-cheng-yu-xian-cheng.md)
-  * 进程通信
-  * Handler、messageQueue、Looper的关系
-  * 消息机制
-  * 并发
+  * [进程通信](androidzhi-jin-cheng-yu-xian-cheng/jin-cheng-tong-xin.md)
+  * [Handler、messageQueue、Looper的关系](androidzhi-jin-cheng-yu-xian-cheng/handlermessagequeuelooperde-guan-xi.md)
+  * [消息机制](androidzhi-jin-cheng-yu-xian-cheng/xiao-xi-ji-zhi.md)
+  * [并发](androidzhi-jin-cheng-yu-xian-cheng/bing-fa.md)
 * 数据持久化
   * SQLite
   * SharePerference
