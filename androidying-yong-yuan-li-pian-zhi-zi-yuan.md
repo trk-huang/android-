@@ -13,8 +13,6 @@
 * 资源池，一个应用可选的资源。
 * 最佳适配原则，整个资源匹配流程的核心，也是最终的仲裁者。
 
-
-
 ## 资源类型
 
 | 类型 | 存放位置 | 访问方式 | 描述 |
@@ -28,8 +26,6 @@
 | 样式资源\(Style Resource\) | res/values/ | R.style.xxx | 定义UI外观 |
 | 原始资源（Raw Resource\) | res/values/ | R.raw.xxx;Resources.openRawResource函数打开 | 存放原始格式的资源，如音频文件，也可以将这类文件放在asset/目录下，这时资源不会被分配id值，可以用AssetManager来访问 |
 | 其他资源 | res/values | R.bool.xxx,R.integer.xxx;R.color.xxx | 用于定义各种变量值，如整型、布尔型、颜色、尺寸等 |
-
-
 
 状态颜色资源
 
