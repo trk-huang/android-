@@ -30,43 +30,33 @@ Android设置多进程的步骤很简单，只要在manifest.xml文件中添加p
 5. 单例模式失效
 6. 数据传递的对象必须序列化
 
-
-
 #### 通信
 
 跨进程通信的方式有多种:
 
 1. Intent
-2. Messager通信
+2. Messenger通信
 3. AIDL
 
 > Intent
 
 Intent进行的数据传递是我们平时最常见到的，它的原理就是对Binder进行了封装，但是它只能进行单向的数据传递，所以不能进行良好的进程间通信。
 
-> Messager 通信
+> Messenger 通信
 
-Messager的底层也是由Binder进行构建的，它是基于AIDL的基础上进行了封装。一般来说，Android是通过Binder来绑定服务，服务端主要是运行Service，客户端通过bindService获取到相关的Binder，Binder就作为桥梁进行跨进程通信。
+Messenger的底层也是由Binder进行构建的，它是基于AIDL的基础上进行了封装。一般来说，Android是通过Binder来绑定服务，服务端主要是运行Service，客户端通过bindService获取到相关的Binder，Binder就作为桥梁进行跨进程通信。
 
-下面我们来做一个演示：应用内的多进程通信，使用Messager进行通信
-
-
+下面我们来做一个演示：应用内的多进程通信，使用Messenger进行通信
 
 弊端
 
 上面我们已经实现了应用内跨进程操作，但是里面其实是有缺陷的，服务端处理客户端的消息是串行的，消息是一条条处理，所以如果并发量大的话，通过Messager来通信就不大合适了。
 
-
-
-
-
 > AIDL
-
-> Note: Using AIDL is necessary only if you allow clients from different applications to access your service for IPC and want to handle multithreading in your service. If you do not need to perform concurrent IPC across different applications, you should create your interface by implementing a Binder or, if you want to perform IPC, but do not need to handle multithreading, implement your interface using a Messenger. Regardless, be sure that you understand Bound Services before implementing an AIDL.
+>
+> Note: Using AIDL is necessary only if you allow clients from different applications to access your service for IPC and want to handle multithreading in your service. If you do not need to perform concurrent IPC across different applications, you should create your interface by implementing a Binder or, if you want to perform IPC, but do not need to handle multithreading, implement your interface using a Messenger. Regardless, be sure that you understand Bound Services before implementing an AIDL.
 
 主要意思就是你可以用 Messenger 处理简单的跨进程通信,但是高并发量的要用AIDL
-
-
 
 AIDL支持的数据类型：
 
@@ -84,10 +74,6 @@ AIDL支持的数据类型：
    2. **out:**这个对象能够作为返回值从服务器到客户端,但是从客户端到服务器数据会为空\(不会为null,但是字段都没有赋值\)
 
    3. **inout:**能从客户端到服务器,也可以作为返回值从服务器到客户端
-
-
-
-
 
 最后，我们还需要注意的地方：
 
