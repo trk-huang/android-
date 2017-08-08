@@ -1,4 +1,4 @@
-# 进程通信
+# Messenger进程通信
 
 ### 前言
 
@@ -81,7 +81,7 @@ public class ServerService extends Service {
     private final static  Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
-            
+
         }
     };
 ```
@@ -211,7 +211,6 @@ private Messenger mMessenger = new Messenger(mHandler);
                 }
             }
         }).start();
-
 ```
 
 6.服务端的Handler需要进行修改，从Message中获取客户端的Messenger，然后通过Messenger发送消息：

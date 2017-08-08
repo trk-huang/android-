@@ -22,8 +22,8 @@
   * [Android性能优化之内存管理](androidxing-neng-you-hua-zhi-nei-cun-guan-li.md)
   * [Android性能优化之管理应用内存](androidxing-neng-you-hua-zhi-guan-li-ying-yong-nei-cun.md)
 * [Android之进程与线程](androidzhi-jin-cheng-yu-xian-cheng.md)
-  * Messenger[进程通信](androidzhi-jin-cheng-yu-xian-cheng/jin-cheng-tong-xin.md)
-  * AIDL进程通信
+  * [Messenger进程通信](androidzhi-jin-cheng-yu-xian-cheng/jin-cheng-tong-xin.md)
+  * [AIDL进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidljin-cheng-tong-xin.md)
   * [Handler、messageQueue、Looper的关系](androidzhi-jin-cheng-yu-xian-cheng/handlermessagequeuelooperde-guan-xi.md)
   * [消息机制](androidzhi-jin-cheng-yu-xian-cheng/xiao-xi-ji-zhi.md)
   * [并发](androidzhi-jin-cheng-yu-xian-cheng/bing-fa.md)
@@ -137,6 +137,4 @@
   * ButterKnife
 * 常见面试题
 * 技术文章收录
-
-
 
