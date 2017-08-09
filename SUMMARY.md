@@ -48,10 +48,10 @@
     * [canvas clip方法学习](androidzi-ding-yi-view/li-jie-canvas/canvas-clipfang-fa-xue-xi.md)
   * [Region学习](androidzi-ding-yi-view/regionxue-xi.md)
   * [理解Matrix之Translate](androidzi-ding-yi-view/li-jie-matrix.md)
-  * 理解Matrix之Scale
+  * [理解Matrix之Scale](androidzi-ding-yi-view/li-jie-matrix-zhi-scale.md)
   * 理解Matrix之Rotate
   * 理解Matrix之Skew
-  * 理解Matrix之Post**与pre\*\***
+  * 理解Matrix之Post与pre\*\*
   * 理解MAtrix之其他方法
   * [理解贝塞尔曲线](androidzi-ding-yi-view/li-jie-bei-sai-er-qu-xian.md)
   * [理解Paint](androidzi-ding-yi-view/li-jie-paint.md)
@@ -143,6 +143,4 @@
   * ButterKnife
 * 常见面试题
 * 技术文章收录
-
-
 
