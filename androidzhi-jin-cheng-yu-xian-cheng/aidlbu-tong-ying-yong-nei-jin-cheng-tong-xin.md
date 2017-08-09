@@ -68,7 +68,6 @@ public class MyServiceConnection implements ServiceConnection {
 3.绑定服务，bindService\(mIntent, mXiayuConnection, BIND\_AUTO\_CREATE\),如下代码：
 
 ```java
-
 public class MainActivity extends AppCompatActivity {
     MyServiceConnection myServiceConnection = null;
 
@@ -95,6 +94,27 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+这样我们就能进行不同应用进程间的通信了,看如下效果
+
+```java
+08-09 11:49:07.536 28850-28863/com.zhiping.alibaba.aidltest I/System.out: 亲爱的，晚上想吃点啥: Food{name='花椰菜', price=1.5}
+08-09 11:49:07.536 28850-28862/com.zhiping.alibaba.aidltest I/System.out: 亲爱的，晚上想吃点啥
+```
+
+```java
+08-09 12:56:50.876 30565-30565/com.zhiping.alibaba.clienttest I/System.out: food1:Food{name='花椰菜111', price=1.6}
+```
+
+
+
+最后用到service的注意点：
+
+1. startService和stopService需要用同一个Intent对象
+
+2. bindService和unbindService需要用同一个ServiceConnection对象
+
+3. 5.0以后隐式意图开启或者绑定service要setPackage\(包名\)
 
 
 
