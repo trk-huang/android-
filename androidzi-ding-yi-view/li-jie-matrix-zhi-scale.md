@@ -13,7 +13,7 @@ y = k1 * y0
 
 矩阵形式：
 
-![](http://upload-images.jianshu.io/upload_images/2086682-3a87462eccd2f07c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/2086682-3a87462eccd2f07c.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
 
 k1是缩放比例，负值是无效的，bitmap会不显示；0~1f是缩小；k1&gt;1为放大
 
@@ -53,5 +53,5 @@ k1是缩放比例，负值是无效的，bitmap会不显示；0~1f是缩小；k1
     }
 ```
 
-
+![](/assets/device-2017-08-09-151336.png)此时是以Bitmap为中心，整个bitmap的边缘向中心靠拢。
 
