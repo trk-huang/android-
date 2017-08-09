@@ -24,7 +24,7 @@
 * [Android之进程与线程](androidzhi-jin-cheng-yu-xian-cheng.md)
   * [Messenger进程通信](androidzhi-jin-cheng-yu-xian-cheng/jin-cheng-tong-xin.md)
   * [AIDL进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidljin-cheng-tong-xin.md)
-  * AIDL不同应用内进程通信
+  * [AIDL不同应用内进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidlbu-tong-ying-yong-nei-jin-cheng-tong-xin.md)
   * [Handler、messageQueue、Looper的关系](androidzhi-jin-cheng-yu-xian-cheng/handlermessagequeuelooperde-guan-xi.md)
   * [消息机制](androidzhi-jin-cheng-yu-xian-cheng/xiao-xi-ji-zhi.md)
   * [并发](androidzhi-jin-cheng-yu-xian-cheng/bing-fa.md)
@@ -138,6 +138,4 @@
   * ButterKnife
 * 常见面试题
 * 技术文章收录
-
-
 
