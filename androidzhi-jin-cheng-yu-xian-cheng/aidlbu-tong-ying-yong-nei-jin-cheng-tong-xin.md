@@ -14,6 +14,8 @@ sourceSets{
     }
 ```
 
+![](/assets/QQ20170809-77.png)
+
 接着我们把service增加intent-filter中，这样应用就能通过隐式意图启动服务。
 
 ```java
@@ -32,9 +34,11 @@ sourceSets{
 
 点击同步，Androidstudio会自动生成相应的java文件供我们使用。
 
+![](/assets/QQ20170809-99.png)
+
 接下来我们就可以用隐式意图来启动服务了。
 
-2.创建一个和原来一样的ServiceConnection，如下图:
+2.创建一个和原来一样的ServiceConnection，如下代码:
 
 ```java
 /**
@@ -105,8 +109,6 @@ public class MainActivity extends AppCompatActivity {
 ```java
 08-09 12:56:50.876 30565-30565/com.zhiping.alibaba.clienttest I/System.out: food1:Food{name='花椰菜111', price=1.6}
 ```
-
-
 
 最后用到service的注意点：
 
