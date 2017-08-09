@@ -30,7 +30,7 @@
 * 数据持久化
   * SQLite
   * SharePerference
-  * 序列化
+  * 序列化&Parcelable
   * Android内部文件系统
 * 多媒体
   * 视频
