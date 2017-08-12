@@ -12,6 +12,7 @@
   * [Android应用原理篇之事件机制](androidying-yong-yuan-li-pian-zhi-shi-jian-ji-zhi.md)
   * [Android应用原理篇之资源](androidying-yong-yuan-li-pian-zhi-zi-yuan.md)
   * [Android应用原理篇之架构设计](androidying-yong-yuan-li-pian-zhi-jia-gou-she-ji.md)
+  * [Android应用原理之组件化开发](androidying-yong-yuan-li-zhi-zu-jian-hua-kai-fa.md)
 * [Android之性能优化](androidzhi-xing-neng-you-hua.md)
   * [Android性能优化之数据库性能优化](androidxing-neng-you-hua-zhi-shu-ju-ku-xing-neng-you-hua.md)
   * [Android性能之布局优化](androidxing-neng-zhi-bu-ju-you-hua.md)
@@ -49,10 +50,10 @@
   * [Region学习](androidzi-ding-yi-view/regionxue-xi.md)
   * [理解Matrix之Translate](androidzi-ding-yi-view/li-jie-matrix.md)
   * [理解Matrix之Scale](androidzi-ding-yi-view/li-jie-matrix-zhi-scale.md)
-  * 理解Matrix之Rotate
-  * 理解Matrix之Skew
-  * 理解Matrix之Post与pre\*\*
-  * 理解MAtrix之其他方法
+  * [理解Matrix之Rotate](androidzi-ding-yi-view/li-jie-matrix-zhi-rotate.md)
+  * [理解Matrix之Skew](androidzi-ding-yi-view/li-jie-matrix-zhi-skew.md)
+  * [理解Matrix之Post与pre\*\*](androidzi-ding-yi-view/li-jie-matrix-zhi-post-yu-pre.md)
+  * [理解MAtrix之其他方法](androidzi-ding-yi-view/li-jie-matrix-zhi-qi-ta-fang-fa.md)
   * [理解贝塞尔曲线](androidzi-ding-yi-view/li-jie-bei-sai-er-qu-xian.md)
   * [理解Paint](androidzi-ding-yi-view/li-jie-paint.md)
     * [Paint之绘制图像](androidzi-ding-yi-view/li-jie-paint/paintzhi-hui-zhi-tu-xiang.md)
@@ -132,8 +133,8 @@
 * 第三方库
   * 图片
     * Fresco
-    * Glide
-    * Picasso
+    * [Glide](glide.md)
+    * [Picasso](picasso.md)
     * ImageLoader
   * 网络
     * okhttp、okhttp3
