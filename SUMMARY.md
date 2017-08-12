@@ -12,7 +12,7 @@
   * [Android应用原理篇之事件机制](androidying-yong-yuan-li-pian-zhi-shi-jian-ji-zhi.md)
   * [Android应用原理篇之资源](androidying-yong-yuan-li-pian-zhi-zi-yuan.md)
   * [Android应用原理篇之架构设计](androidying-yong-yuan-li-pian-zhi-jia-gou-she-ji.md)
-  * [Android应用原理之组件化开发](androidying-yong-yuan-li-zhi-zu-jian-hua-kai-fa.md)
+  * [Android应用原理之模块化开发](androidying-yong-yuan-li-zhi-zu-jian-hua-kai-fa.md)
 * [Android之性能优化](androidzhi-xing-neng-you-hua.md)
   * [Android性能优化之数据库性能优化](androidxing-neng-you-hua-zhi-shu-ju-ku-xing-neng-you-hua.md)
   * [Android性能之布局优化](androidxing-neng-zhi-bu-ju-you-hua.md)
@@ -81,7 +81,7 @@
     * 原生图片
     * 原生音频
 * 开发规范
-  * 编码规范
+  * [编码规范](bian-ma-gui-fan.md)
   * 代码质量
     * 分析工具
     * 编码审核
@@ -109,12 +109,13 @@
   * ReactNative
   * webkit相关
 * 编译与构建
-  * Gradle
+  * [Gradle](gradle.md)
     * 基础知识
     * Groovy
     * manifest merger
     * 定制构建过程
     * Gradle插件开发
+    * Gradle统一配置依赖版本
   * APK
     * 编译过程
     * 签名
