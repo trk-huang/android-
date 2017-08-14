@@ -28,7 +28,6 @@
   * [Messenger进程通信](androidzhi-jin-cheng-yu-xian-cheng/jin-cheng-tong-xin.md)
   * [AIDL进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidljin-cheng-tong-xin.md)
   * [AIDL不同应用内进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidlbu-tong-ying-yong-nei-jin-cheng-tong-xin.md)
-  * [并发](androidzhi-jin-cheng-yu-xian-cheng/bing-fa.md)
 * 数据持久化
   * SQLite
   * SharePerference
