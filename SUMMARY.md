@@ -23,11 +23,11 @@
   * [Android性能优化之内存管理](androidxing-neng-you-hua-zhi-nei-cun-guan-li.md)
   * [Android性能优化之管理应用内存](androidxing-neng-you-hua-zhi-guan-li-ying-yong-nei-cun.md)
 * [Android之进程与线程](androidzhi-jin-cheng-yu-xian-cheng.md)
+  * [Android消息机制](androidzhi-jin-cheng-yu-xian-cheng/xiao-xi-ji-zhi.md)
+  * [Handler、messageQueue、Looper的关系](androidzhi-jin-cheng-yu-xian-cheng/handlermessagequeuelooperde-guan-xi.md)
   * [Messenger进程通信](androidzhi-jin-cheng-yu-xian-cheng/jin-cheng-tong-xin.md)
   * [AIDL进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidljin-cheng-tong-xin.md)
   * [AIDL不同应用内进程通信](androidzhi-jin-cheng-yu-xian-cheng/aidlbu-tong-ying-yong-nei-jin-cheng-tong-xin.md)
-  * [Handler、messageQueue、Looper的关系](androidzhi-jin-cheng-yu-xian-cheng/handlermessagequeuelooperde-guan-xi.md)
-  * [消息机制](androidzhi-jin-cheng-yu-xian-cheng/xiao-xi-ji-zhi.md)
   * [并发](androidzhi-jin-cheng-yu-xian-cheng/bing-fa.md)
 * 数据持久化
   * SQLite
@@ -64,14 +64,14 @@
     * [Paint之SweepGradient](androidzi-ding-yi-view/li-jie-paint/paintzhi-sweepgradient.md)
     * [Paint之ComposeShader](androidzi-ding-yi-view/li-jie-paint/paintzhi-composeshader.md)
 * 适配
-  * 屏幕适配
-  * 系统版本适配
+  * [屏幕适配](ping-mu-shi-pei.md)
+  * [系统版本适配](xi-tong-ban-ben-shi-pei.md)
   * Room适配
   * 语言和国际化
   * 指令集相关
   * 辅助功能
 * JNI和JDK
-  * so文件
+  * [so文件](sowen-jian.md)
   * 本地方法实现
   * NDK调试
   * SWIG
@@ -82,10 +82,10 @@
     * 原生音频
 * 开发规范
   * [编码规范](bian-ma-gui-fan.md)
-  * 代码质量
-    * 分析工具
-    * 编码审核
-    * 安全编码策略
+  * [代码质量](dai-ma-zhi-liang.md)
+    * [分析工具](fen-xi-gong-ju.md)
+    * [编码审核](bian-ma-shen-he.md)
+    * [安全编码策略](an-quan-bian-ma-ce-lve.md)
 * 应用安全
   * 代码混淆
   * 网络传输安全https、图解https、Google官方

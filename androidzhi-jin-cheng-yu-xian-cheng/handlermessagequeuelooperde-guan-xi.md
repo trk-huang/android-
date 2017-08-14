@@ -6,8 +6,6 @@
 
 先看下图：让我们来认识这些概念聚合在一起工作是怎么样子的。
 
-
-
 ![](/assets/未命名文件.png)
 
 * Runnable和Message可以被亚茹某个MessageQueue中，形成一个集合。需要注意的是，一般MessageQueue只允许保存一种类型的Object。因此实际源码中，MessageQueue会先对Runnable进行相应的转换，然后放入MessageQueue中的。
